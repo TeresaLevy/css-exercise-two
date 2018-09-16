@@ -1,15 +1,71 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ccffcc;
+  color: #333333;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #66cc99;
   float: left;
   position: fixed;
   width: 100%;
 }
+a:link {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 70%;
+   } /* unvisited */
+a:visited {
+  color:#0070BA;
+  } /* visited */
+a:hover {
+  color:#333333;
+  } /* mouse over */
+a:active {
+  color:#0070BD;
+  } /* selected */
+.container {
+  font-size: 110%;
+}
+figure {
+    line-height: 120%;
+    font-size: 90%;
+    weight: 200;
+    padding-bottom: 30px;
+  }
 
+figcaption {
+    color: #000000;
+    font-size: 70%;
+  }
+em {
+  font-weight: 500;
+}
+header {
+  line-height: normal;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-bottom: 20px;
+}
+.author {
+  font-style: oblique;
+  padding-bottom: 40px;
+}
 .logo {
   margin: 20px;
   width: 100px;
@@ -31,6 +87,12 @@ nav {
 .right {
   float: right;
 }
+.story-text {
+  font-size: 110%;
+  font-weight: 200;
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}
 
 ul {
   list-style-type: none;
@@ -44,6 +106,7 @@ li {
 
 article {
   padding-top: 100px;
+  line-height: 1.2;
 }
 
 .container {
